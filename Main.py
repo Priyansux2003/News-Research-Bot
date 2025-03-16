@@ -9,7 +9,6 @@ from langchain.document_loaders import UnstructuredURLLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
-# Set OpenAI API Key directly in code (Not recommended for security reasons)
 os.environ["OPENAI_API_KEY"] = "Enter the API Key"
 
 st.title("Fin Research Bot: News Research Tool 📈")
